@@ -1,0 +1,31 @@
+GIT
+  remote: https://github.com/outcomesinsights/conceptql
+  revision: 1ee57434e82a0eb0f6c08bf7e608461cc4817cc1
+  branch: master
+  specs:
+    conceptql (0.3.0)
+      sequelizer (~> 0.1)
+      thor (~> 0.19)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.2.1)
+    hashie (3.5.6)
+    sequel (4.49.0)
+    sequelizer (0.1.0)
+      dotenv (~> 2.1)
+      hashie (~> 3.2)
+      sequel (~> 4.12)
+      thor (~> 0.19)
+    thor (0.20.0)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  conceptql!
+
+BUNDLED WITH
+   1.16.0.pre.3
